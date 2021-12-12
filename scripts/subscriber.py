@@ -6,7 +6,7 @@ from std_msgs.msg import Float64
 a = []
 
 
-def callback(data: Float64) -> None:
+def callback(data: float) -> None:
     """
     Append received data to array and then calculate l2 norm of an array. Then print new l2 norm as rospy loginfo.
 
